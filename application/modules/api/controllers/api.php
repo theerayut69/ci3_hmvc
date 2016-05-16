@@ -1,5 +1,5 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
-class Api_member extends MX_Controller {
+class Api extends MX_Controller {
 
 
 	public function __construct(){

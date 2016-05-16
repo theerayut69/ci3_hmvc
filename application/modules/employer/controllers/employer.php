@@ -25,14 +25,15 @@ class Employer extends MX_Controller{
 //        $resume_online = Modules::run('api/api_resume/resume_online_member',$this->member_id);
 //        $resume_online = json_decode($resume_online,true);
 
-        $company = Modules::run('api/api_member/get_company', 'test');
+        $company = Modules::run('api/api_member/test_api', 'test');
 
-        $company = json_decode($company);
+//        $company = json_decode($company);
 
 //        $company = array(1,2,3,4,5);
 
-        print_r($company);
+//        print_r($company);
 
-//        echo $company;
+        echo "<br/>";
+        echo $company;
     }
 }
